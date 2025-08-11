@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17126809257"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17126809257');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar Postes e Pré-Moldados - Chapecó e Região</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17126809257"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17126809257');
+    </script>
+    
+    <style>
+        /* CSS Reset e Estilos Gerais */
+        :root {
+            --cor-primaria: #ffc107; /* Amarelo do logo */
+            --cor-secundaria: #333333; /* Cinza escuro para texto */
+            --cor-fundo: #f8f9fa;
+            --cor-branco: #ffffff;
+            --cor-cinza-claro: #6c757d; /* Cinza do logo */
+        }
+        body, html { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--cor-fundo); color: var(--cor-secundaria); scroll-behavior: smooth; }
+        .container { max-width: 1100px; margin: auto; padding: 0 20px; }
+        section { padding: 80px 0; }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 50px; color: var(--cor-secundaria); position: relative; }
+        .section-title::after { content: ''; display: block; width: 70px; height: 4px; background: var(--cor-primaria); margin: 10px auto 0; }
+        
+        /* Header */
+        header { background: var(--cor-branco); padding: 10px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        header .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { max-width: 180px; }
+        nav a { color: var(--cor-secundaria); text-decoration: none; margin: 0 15px; font-weight: 600; transition: color 0.3s; }
+        nav a:hover { color: var(--cor-primaria); }
+
+        /* Seção Hero (Principal) */
+        .hero { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1588725343932-02835227473d?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover; color: var(--cor-branco); text-align: center; padding: 120px 20px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+        .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; }
+        
+        /* Botão Call-to-Action (CTA) */
+        .cta-button { background-color: #25D366; color: var(--cor-branco); padding: 15px 30px; font-size: 1.2rem; font-weight: bold; text-decoration: none; border-radius: 50px; transition: transform 0.3s, background-color 0.3s; display: inline-block; }
+        .cta-button:hover { background-color: #128C7E; transform: scale(1.05); }
+        .whatsapp-icon { width: 24px; vertical-align: middle; margin-right: 10px; }
+        
+        /* Seção Sobre Nós */
+        #sobre { background: var(--cor-branco); }
+        .sobre-content { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; }
+        .sobre-content .texto { flex: 1; min-width: 300px; }
+        /* A IMAGEM FOI TROCADA POR VÍDEO */
+        .sobre-content video { flex: 1; max-width: 450px; min-width: 300px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; }
+        .sobre-content p { line-height: 1.7; }
+        
+        /* SEÇÃO Diferenciais */
+        .diferenciais-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: center; }
+        .diferencial-item { background: var(--cor-branco); padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s, box-shadow 0.3s; }
+        .diferencial-item:hover { transform: translateY(-10px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .diferencial-item img { height: 60px; margin-bottom: 20px; }
+        .diferencial-item h3 { font-size: 1.3rem; color: var(--cor-secundaria); margin-bottom: 10px; }
+        
+        /* Seção Produtos */
+        #produtos { background-color: var(--cor-fundo); }
+        .produtos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .produto-card { background: var(--cor-branco); border: 1px solid #eee; border-radius: 10px; text-align: center; padding: 30px; transition: transform 0.3s; }
+        .produto-card:hover { transform: translateY(-10px); }
+        .produto-card img { max-width: 150px; height: auto; margin-bottom: 20px; }
+        .produto-card h3 { font-size: 1.5rem; color: var(--cor-secundaria); margin-bottom: 15px; }
+        .produto-card ul { list-style: none; padding: 0; margin-bottom: 20px; color: var(--cor-cinza-claro); }
+        .produto-card ul li { margin-bottom: 8px; }
+
+        /* SEÇÃO Galeria */
+        #galeria { background-color: var(--cor-branco); }
+        .galeria-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+        .galeria-item img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s, opacity 0.3s; }
+        .galeria-item img:hover { transform: scale(1.05); opacity: 0.9; cursor: pointer; }
+
+        /* Rodapé */
+        footer { background: var(--cor-secundaria); color: var(--cor-branco); padding: 50px 0; text-align: center; }
+        footer h3 { font-size: 1.8rem; margin-bottom: 20px; }
+        footer p { margin-bottom: 30px; font-size: 1.1rem; }
+        .social-links a { margin: 0 15px; }
+        .social-links img { width: 32px; transition: transform 0.3s; }
+        .social-links img:hover { transform: scale(1.2); }
+        .copyright { margin-top: 40px; font-size: 0.9rem; color: var(--cor-cinza-claro); }
+
+        /* Botão Flutuante do WhatsApp */
+        .whatsapp-flutuante { position: fixed; width: 60px; height: 60px; bottom: 30px; right: 30px; background-color: #25D366; color: #FFF; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 8px rgba(0,0,0,0.25); z-index: 1000; display: flex; align-items: center; justify-content: center; transition: transform 0.3s; }
+        .whatsapp-flutuante:hover { transform: scale(1.1); }
+        .whatsapp-flutuante img { width: 35px; }
+        
+        /* Media Queries para Responsividade */
+        @media (max-width: 768px) { header .container { flex-direction: column; gap: 15px; } .hero h1 { font-size: 2.5rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="arquivos/logo.png" alt="Logo Instalar Postes" class="logo">
+            <nav>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Postes e Padrões de Energia para Chapecó e Região</h1>
+                <p>Soluções completas com venda e instalação de postes homologados pela Celesc. Qualidade e segurança para sua obra.</p>
+                <a href="https://wa.me/5549999936276?text=Ol%C3%A1!+Vim+pelo+site+e+gostaria+de+solicitar+um+or%C3%A7amento." target="_blank" class="cta-button">
+                    <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon"/>
+                    Solicitar Orçamento no WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="sobre-content">
+                    <div class="texto">
+                        <h2 class="section-title" style="text-align: left; margin-left: 0; margin-bottom: 20px;">Sobre a Instalar</h2>
+                        <p>A <strong>Instalar Postes e Pré-Moldados</strong> é sua parceira de confiança em Chapecó e região, especializada na venda e instalação de postes e padrões de entrada de energia.</p>
+                        <p>Trabalhamos exclusivamente com produtos <strong>homologados pela CELESC</strong>, garantindo total conformidade, segurança e qualidade para sua residência, comércio ou empreendimento rural. Nossa missão é oferecer uma solução completa, desde a escolha do produto ideal até a instalação final, com agilidade e excelência no atendimento.</p>
+                    </div>
+                    <video src="arquivos/empresa.mp4" autoplay loop muted playsinline>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="diferenciais">
+            <div class="container">
+                <h2 class="section-title">Nossos Diferenciais</h2>
+                <div class="diferenciais-grid">
+                    <div class="diferencial-item">
+                        <img src="arquivos/celesc.png" alt="Ícone de Aprovado">
+                        <h3>Homologado Celesc</h3>
+                        <p>Segurança e conformidade total com as normas da distribuidora da sua região.</p>
+                    </div>
+                    <div class="diferencial-item">
+                        <img src="arquivos/caminhao.png"Ícone de Caminhão">
+                        <h3>Entrega e Instalação</h3>
+                        <p>Oferecemos a solução completa: comprou, nós entregamos e instalamos para você.</p>
+                    </div>
+                    <div class="diferencial-item">
+                        <img src="arquivos/orcamento.png" alt="Ícone de Chat">
+                        <h3>Orçamento Rápido</h3>
+                        <p>Atendimento ágil e descomplicado para você iniciar seu projeto o quanto antes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="produtos" style="background-color: var(--cor-branco);">
+            <div class="container">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <div class="produtos-grid">
+                    <div class="produto-card">
+                        <img src="arquivos/postinho.png" alt="Kit Poste Padrão Celesc">
+                        <h3>Kit Poste Padrão Celesc</h3>
+                        <p>Entregamos e instalamos o kit completo, pronto para a ligação da Celesc.</p>
+                        <ul>
+                            <li>✔ Monofásico, Bifásico e Trifásico</li>
+                            <li>✔ 1, 2 ou 3 Caixas de Medição</li>
+                            <li>✔ Totalmente Homologado</li>
+                        </ul>
+                    </div>
+                    <div class="produto-card">
+                        <img src="arquivos/poste.png" alt="Kit Poste Padrão MEE Solar">
+                        <h3>Kit Poste Padrão MEE (Solar)</h3>
+                        <p>A solução ideal para a medição de energia em usinas de energia solar.</p>
+                         <ul>
+                            <li>✔ Padrão para Microgeração Distribuída</li>
+                            <li>✔ Estrutura robusta e segura</li>
+                            <li>✔ Venda e Instalação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" style="background-color: var(--cor-fundo);">
+            <div class="container">
+                <h2 class="section-title">Nossas Instalações</h2>
+                <div class="galeria-grid">
+                    <div class="galeria-item"><img src="arquivos/cliente1.jpg" alt="Instalação de poste 1"></div>
+                    <div class="galeria-item"><img src="arquivos/cliente3.jpg" alt="Instalação de poste 2"></div>
+                    <div class="galeria-item"><img src="arquivos/cliente2.jpg" alt="Instalação de poste 3"></div>
+                    <div class="galeria-item"><img src="arquivos/cliente4.jpg" alt="Instalação de poste 4"></div>
+                </div>
+            </div>
+        </section>
+        
+        <footer id="contato">
+            <div class="container">
+                <h3>Pronto para começar seu projeto?</h3>
+                <p>Entre em contato conosco agora mesmo e solicite um orçamento sem compromisso.</p>
+                <a href="https://wa.me/5549999936276?text=Ol%C3%A1!+Vim+pelo+site+e+gostaria+de+solicitar+um+or%C3%A7amento." target="_blank" class="cta-button">
+                    <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon"/>
+                    Falar no WhatsApp: (49) 99993-6276
+                </a>
+                <div class="social-links">
+                    <p style="margin-top: 30px; margin-bottom: 15px;">Siga-nos nas redes sociais:</p>
+                    <a href="https://www.instagram.com/instalar.postes/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"/></a>
+                    <a href="https://www.facebook.com/profile.php?id=61555581756237&locale=pt_BR " target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"/></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Instalar Postes e Pré-Moldados. Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <a href="https://wa.me/5549999936276?text=Ol%C3%A1!+Vim+pelo+site+e+gostaria+de+solicitar+um+or%C3%A7amento." class="whatsapp-flutuante" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="Fale conosco no WhatsApp">
+    </a>
+
+</body>
+</html>

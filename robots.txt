@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /arquivos/empresa.mp4
+
+Sitemap: https://www.instalarpostes.com.br/sitemap.xml
